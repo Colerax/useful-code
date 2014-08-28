@@ -9,7 +9,7 @@ public class CriptUtil {
 
     public static String Encriptar(String texto) {
 
-        String secretKey = "qualityinfosolutions";
+        String secretKey = "KEYTOUSE";
         String base64EncryptedString = "";
 
         try {
@@ -34,7 +34,7 @@ public class CriptUtil {
 
     public static String Desencriptar(String textoEncriptado) throws Exception {
 
-        String secretKey = "qualityinfosolutions";
+        String secretKey = "KEYTOUSE";
         String base64EncryptedString = "";
 
         try {
